@@ -80,3 +80,105 @@
 //     document.write(`<h1>Name ${i}</h1>`)
 //     i++
 // }
+// Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
+
+// let array = [1, 5, 69, 53, 48, 25, 58, 4, 23, 20];
+// for (let number of array) {
+//     console.log(number)
+//
+// }
+// let array = [1, 5, 69, 53, 48, 25, 58, 4, 23, 20];
+// for (let i = 0; i < array.length; i++) {
+//     console.log(array[i]);
+
+// }
+// let array = [1, 5, 69, 53, 48, 25, 58, 4, 23, 20];
+// let i = 0
+// while (i < array.length) {
+//     console.log(array[i])
+//     i++
+// }
+
+
+// - Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
+
+// let arr = ['asd', 'lkj', 'sfdca', '2553', 'ffn','asd', 'lkj', 'sfdca', '2553', 'ffn',]
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i])
+//
+// }
+// let arr = ['asd', 'lkj', 'sfdca', '2553', 'ffn','asd', 'lkj', 'sfdca', '2553', 'ffn',]
+// for (let string of arr) {
+//     console.log(string)
+//
+// }
+// let arr = ['asd', 'lkj', 'sfdca', '2553', 'ffn','asd', 'lkj', 'sfdca', '2553', 'ffn',]
+// i=0
+// while (i<arr.length){
+//     console.log(arr[i])
+//     i++
+// }
+
+// - Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
+// let masyv = ['kjhk', 25, true,'lkj', 'sfdca', '2553', 53, 48, 25, 58 ];
+// for (let masyvElement of masyv) {
+//     console.log(masyvElement)
+//
+// }
+// let masyv = ['kjhk', 25, true,'lkj', 'sfdca', '2553', 53, 48, 25, 58 ];
+// i=0
+// while (i<masyv.length){
+//     console.log(masyv[i])
+//     i++
+// // }
+// let mas = ['kjhk', 25, true,'lkj', 'sfdca', '2553', 53, 48, 25, 58 ];
+// for (let i = 0; i < mas.length; i++) {
+//    console.log(mas[i])
+//
+// }
+
+// - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
+// let array = ['kjhk', 25, true,'lkj', 'sfdca', '2553', 53, false, 25, 58];
+// for (let i = 0; i < array.length; i++) {
+//     if (typeof array[i] === "boolean"){
+//         console.log(array[i])
+//     }
+//
+// }
+
+
+// пробувала робити ще отак, але чогось не виходить
+
+
+// let array = ['kjhk', 25, true, 'lkj', 'sfdca', '2553', 53, false, 25, 58];
+// i = 0
+// while (i < array.length){
+//     if (typeof array [i] === "boolean"){
+//         console.log(array[i])
+//         i++
+// }
+// }
+// let array = ['kjhk', 25, true, 'lkj', 'sfdca', '2553', 53, false, 25, 58];
+// for (let arrayElement of array) {
+//     if (typeof arrayElement === "boolean"){
+//         console.log(arrayElement)
+//     }
+//
+// }
+
+// - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+// let array = ['kjhk', 25, true, 'lkj', 'sfdca', '2553', 53, false, 25, 58];
+// for (let i = 0; i < array.length; i++) {
+//     if (typeof array[i] === "number"){
+//         console.log(array[i])
+//     }
+//
+// }
+// - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
+let array = ['kjhk', 25, true, 'lkj', 'sfdca', '2553', 53, false, 25, 58];
+for (let i = 0; i < array.length; i++) {
+    if (typeof array[i] === "string"){
+        console.log(array[i])
+    }
+
+}
