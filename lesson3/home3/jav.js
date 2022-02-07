@@ -175,17 +175,68 @@
 //
 // }
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
-let array = ['kjhk', 25, true, 'lkj', 'sfdca', '2553', 53, false, 25, 58];
-for (let i = 0; i < array.length; i++) {
-    if (typeof array[i] === "string"){
-        console.log(array[i])
-    }
+// let array = ['kjhk', 25, true, 'lkj', 'sfdca', '2553', 53, false, 25, 58];
+// for (let i = 0; i < array.length; i++) {
+//     if (typeof array[i] === "string"){
+//         console.log(array[i])
+//     }
+//
+// }
 
-}
+// - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних
+// індексів. Вивести в консоль всі його елементи в циклі.
+// let array = [];
+// array[0] = 'string';
+// array[1] = true;
+// array [2] = 528;
+// array [3] = 356;
+// array [4] = 'lkjh'
+// array [5] = 875;
+// array [6] = false;
+// array [7] = true;
+// array [8] = 'spring';
+// array [9] = 852;
+// for (let i = 0; i < array.length; i++) {
+//     console.log(array[i])
+//
+// }
+// - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та
+// document.write
+//
+// for (let i = 0; i < 10; i++) {
+//    console.log('step'+i);
+//    document.write('step'+i)
+//
+// }
 
-- Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
-- Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-- Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-- Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
-- Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
-- Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+
+// - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log
+// та document.write
+// for (let i = 0; i < 100; i++) {
+//     console.log('step' + i)
+//     document.write('step' +i)
+//
+// }
+// - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та
+// document.write
+// /
+//
+// for (let i = 0; i < 100; i+=2) {
+//     console.log('step' + i)
+//     document.write('step' +i)
+//
+// }
+// - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+// for (let i = 0; i < 100; i ++) {
+//     if (i % 2 === 0){
+//         console.log('step' + i)
+//     document.write('step' + i)
+// }
+// }
+// - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+// for (let i = 0; i < 100; i++) {
+//     if (i % 2 !== 0){
+//         console.log('step' + i)
+//     document.write('step' + i)
+// }
+// }
