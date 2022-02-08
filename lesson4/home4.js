@@ -79,18 +79,19 @@
 // box(array)
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , ' +
 // 'та виводить їх в документ. Для кожного об'єкту окремий блок.
-function dox (arr){
-    for (let arrElement of arr) {
-        document.write(`<div> ${arrElement.id} ${arrElement.name} ${arrElement.age}</div>`)
-    }
+// function dox (arr){
+//     for (let arrElement of arr) {
+//         document.write(`<div> ${arrElement.id} ${arrElement.name} ${arrElement.age}</div>`)
+//     }
+//
+// }
+//
+// let array = [{id: 25, name: `Tetiana`, age: 33},
+//     {id: 27, name: `Roman`, age: 28},
+//     {id: 45, name: `Liliia`, age: 16}]
+// /
+// dox(array)
 
-}
-
-let array = [{id: 25, name: `Tetiana`, age: 33},
-    {id: 27, name: `Roman`, age: 28},
-    {id: 45, name: `Liliia`, age: 16}]
-console.log(array[0])
-dox(array)
 
 // function dox (arr) {
 //     for (let i = 0; i < arr.length; i++) {
@@ -104,4 +105,8 @@ dox(array)
 //     }
 //
 // }
+// let array = [{id: 25, name: `Tetiana`, age: 33},
+//     {id: 27, name: `Roman`, age: 28},
+//     {id: 45, name: `Liliia`, age: 16}]
+// dox(array)
 
