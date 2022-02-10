@@ -56,6 +56,46 @@
 // document.write(`</ul>`)
 // }
 // unu ('happy', 3)
-// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві),
+// та будує для них список
+// let array = ['five', 554, false, 68, 35]
+// let spysok = (a) => {
+//     document.write(`<ul>`)
+//     for (let i = 0; i < a.length; i++) {
+//         document.write(`<li>${a[i]}</li>`)
+//     }
+//     document.write(`</ul>`)
+// }
+// spysok(array)
+
 //
-// - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+// - створити функцію яка приймає масив об'єктів з наступними полями id,name,age ,
+// та виводить їх в документ. Для кожного об'єкту окремий блок.
+let arrOb = (a) => {
+    for (let aElement of a) {
+        document.write(`<div>${aElement.id} ${aElement.name} ${aElement.age}</div>`)
+
+    }
+
+}
+let array = [
+    {id: 5, name: 'Lil', age: 23},
+    {id: 60, name: 'Fil', age: 28},
+    {id: 47, name: 'Gil', age: 33}
+]
+arrOb(array)
+
+// let users = [
+//         {name: 'vasya', age: 31, status: false},
+//         {name: 'petya', age: 30, status: true},
+//         {name: 'kolya', age: 29, status: true},
+//         {name: 'olya', age: 28, status: false},
+//         {name: 'max', age: 30, status: true},
+//         {name: 'anya', age: 31, status: false},
+//         {name: 'oleg', age: 28, status: false},
+//         {name: 'andrey', age: 29, status: true},
+//         {name: 'masha', age: 30, status: true},
+//         {name: 'olya', age: 31, status: false},
+//         {name: 'max', age: 31, status: true}
+//     ];
+
