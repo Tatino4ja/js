@@ -29,18 +29,28 @@
 // створити функцію яка повертає найбільше число з масиву
 
 //
-// function max(numb) {
-//
-//
-//     for (let numbElement of numb){
+function max(numb) {
+    // for (let numbElement of numb) {
+    //     if (numbElement[0] > numbElement[1]) {
+    //         console.log(numbElement[0])
+    //     } else {
+    //         console.log(numbElement[1])
+    //     }
+//     // }
+//     for (let i = 0; i < arr.length; i++) {
+//         if (numb[i]>numb[i++]){
+//             console.log(numb[i])
+//         } else {
+//             console.log(numb[i++])
+//         }
 //
 //     }
-//     console.log(numbElement)
 // }
 //
-// let arr = [9, 5, 44, 0]
+//
+// let arr = [9, 5, 44, 0, 6, 34]
 // max(arr)
-// // console.log(a)
+// console.log(a)
 // створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
 // let arr = [9, 5, 44, 5, 27]
@@ -72,7 +82,6 @@
 //
 // ser(arr)
 // console.log(ser(arr))
-
 
 
 // створити функцію яка приймає будь-яку кількість чисел,

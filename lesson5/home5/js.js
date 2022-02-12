@@ -71,18 +71,16 @@
 //
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age ,
 // та виводить їх в документ. Для кожного об'єкту окремий блок.
-let arrOb = (a) => {
-    for (let aElement of a) {
-        document.write(`<div>${aElement.id} ${aElement.name} ${aElement.age}</div>`)
-
-    }
-
-}
-let array = [
-    {id: 5, name: 'Lil', age: 23},
-    {id: 60, name: 'Fil', age: 28},
-    {id: 47, name: 'Gil', age: 33}
-]
-arrOb(array)
-
-
+// let arrOb = (a) => {
+//     for (let aElement of a) {
+//         document.write(`<div>${aElement.id} ${aElement.name} ${aElement.age}</div>`)
+//
+//     }
+//
+// }
+// let array = [
+//     {id: 5, name: 'Lil', age: 23},
+//     {id: 60, name: 'Fil', age: 28},
+//     {id: 47, name: 'Gil', age: 33}
+// ]
+// arrOb(array)
