@@ -101,24 +101,31 @@
 //
 // - Напишіть функцію, яка приймає рядок як аргумент і перетворює регістр першого символу рядка з
 // нижнього регістру у верхній.
-// let func = (arg) =>{
-//     let one = arg.toLowerCase([0])
-//     return one
-// }
-// let row = 'каждый охотник желает знать'
-// func(row)
-// console.log(func(row))
+let func = (arg) => {
+    let y = arg.charAt(0).toUpperCase() + arg.slice(1)
+    return y
+}
+let row = 'каждый охотник желает знать'
+func(row)
+console.log(func(row))
 
 
 // - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
 // Тут щось взагалі мені не виходить)))
 
 // let capitalize = (str) => {
-//     let up = str.split(' ')
-//     // .toUpperCase([0])
-// return up
+//     let up = str.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ')
+//      return up
+//
 // }
 // let row = 'каждый охотник желает знать'
 // capitalize(row)
 // console.log(capitalize(row))
 
+
+// let capitalize = (str) => {
+//     return str.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
+// };
+// document.write(capitalize('okten hi you are welcome'));
+// console.log(capitalize('okten hi you are welcome'));
+// split(' ')
