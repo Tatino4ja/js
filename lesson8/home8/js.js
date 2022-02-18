@@ -42,7 +42,6 @@
 // let clas = document.getElementById('rules')
 // console.log(clas.classList)
 
-
 // -- поміняти колір тексту у всіх елементів fc_rules на червоний
 
 // let red = document.body.getElementsByTagName('ul')
@@ -50,3 +49,4 @@
 //     redElement.style.color = 'red'
 //
 // }
+
