@@ -1,52 +1,51 @@
 //     - Напишіть код,  котрий :
 // // -- отримує текст з параграфа з id "content"
-// let idContent = document.getElementById('content')
-// console.log(idContent)
-//
+// let element = document.getElementById('content');
+// console.log(element)
+
 // // -- отримує текст з блоку з id "rules"
-// let idRules = document.getElementById('rules')
-// console.log(idRules)
-// // -- замініть текст параграфа з id 'content' на будь-який інший
-// idContent.innerHTML = `<p>Hello, it is me)))</p>`
-//
+// let byId = document.getElementById('rules');
+// console.log(byId)
+// // // -- замініть текст параграфа з id 'content' на будь-який інший
+// let content = document.getElementById('content');
+// console.log(content)
+// content.innerHTML = '<p>InnerHTML</p>'
+// //
 // // -- замініть текст параграфа з id 'rules' на будь-який інший
+// let element = document.getElementById('rules');
+// element.innerText = 'Inner text'
 //
-// idRules.innerHTML = `<p>Hi) It is me)))</p>`
+
 // // -- змініть кожному елементу колір фону на червоний
-//
-// let red = document.body.children;
-// for (let redElement of red) {
-//     redElement.style.background = 'red'
-//
+
+// let children = document.body.children;
+// console.log(children)
+// for (const child of children) {
+//     child.style.background = 'red'
 // }
-
-
-// idContent.style.background = 'red';
-// idRules.style.background = 'red'
-//
-//
-//
-// let rule1 = document.body.getElementsByClassName('fc_rules rule1')
-// for (let rule1Element of rule1) {
-//     console.log(rule1Element)
-// }
-// rule1Element.style.background = 'red'
-
 
 // -- змініть кожному елементу колір тексту на синій
-// let blue = document.body.children;
-// for (let blueElement of blue) {
-//     blueElement.style.background = 'blue'
+
+// let children = document.body.children;
+// for (const child of children) {
+//     child.style.background = 'blue'
 // }
 // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
-// let clas = document.getElementById('rules')
-// console.log(clas.classList)
-
+// let element = document.getElementById('rules');
+// console.log(element.classList)
 // -- поміняти колір тексту у всіх елементів fc_rules на червоний
 
-// let red = document.body.getElementsByTagName('ul')
-// for (let redElement of red) {
-//     redElement.style.color = 'red'
-//
+// let element = document.body.getElementsByClassName('fc_rules');
+// console.log(element)
+// for (const el of element) {
+//     el.style.color = 'red'
 // }
 
+// function scrapper (startElement){
+//     console.log(startElement)
+//     let children = startElement.children
+//     for (const child of children) {
+//         scrapper (child)
+//     }
+// }
+// scrapper(document.body)
