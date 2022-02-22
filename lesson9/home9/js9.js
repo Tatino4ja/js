@@ -22,17 +22,16 @@
 // Взяти файл template1.html та додати в нього скріпт котрий для кожного елементу масиву створює li та додає його до блоку
 //  .menu
 // Завдання робити через цикли.
-// let array = ['Main', 'Products', 'About us', 'Contacts']
-// let menu = document.getElementsByClassName('menu')[0];
-// for (const string of array) {
-//     let li = document.createElement('li');
-//     li = `${string}`
-//
-//     menu.appendChild(li)
+let array = ['Main', 'Products', 'About us', 'Contacts']
+let menu = document.getElementsByClassName('menu')[0];
+for (const string of array) {
+    let li = document.createElement('li');
+    li = `${string}`
 
-// }
-// let yyy = document.body.getElementsByClassName('menu');
-// console.log(yyy)
+    menu.appendChild(li)
+
+}
+console.log(li)
 //
 
 
