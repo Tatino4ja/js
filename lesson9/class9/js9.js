@@ -150,7 +150,8 @@ let coursesArray = [
         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
     }
 ];
-// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
+// Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих
+// властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
 for (const courseElement of coursesArray) {
     let htmlDivElement = document.createElement('div');
@@ -158,7 +159,7 @@ for (const courseElement of coursesArray) {
     titleEl.innerText = `${courseElement.title}`
     titleEl.style.textAlign = 'center'
 
-    let div = document.createElement('div')
+    let div = document.createElement('div') //тут не розумію чого скаче на самий низ, під ul
     div.style.display = 'flex'
     div.style.justifyContent = 'center'
 
@@ -169,24 +170,18 @@ for (const courseElement of coursesArray) {
     let hourDur = document.createElement('div')
     hourDur.innerText = `${courseElement.hourDuration}`
 
-    let modules = document.createElement('div')
+    let modules = document.createElement('ul')
+    for (const modul of courseElement.modules) {
+        let liElement = document.createElement('li');
+        liElement.innerText = modul
 
-    // for (const module of modules) {
-    //
-    //     let ul = document.createElement('ul');
-    //     {
-    //
-    //         let li = document.createElement('li')
-    //         li.innerText = `${[0]}`
-    //
-    //     }
-    // }
-    // modules.innerText = `${courseElement.modules}`
+        modules.appendChild(liElement)
 
+    }
 
     document.body.append(htmlDivElement, div)
     htmlDivElement.append(titleEl, modules)
     div.append(monthDur, hourDur)
-    console.log(titleEl)
+
 }
 
